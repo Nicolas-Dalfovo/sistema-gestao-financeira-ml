@@ -217,11 +217,6 @@ Este projeto foi desenvolvido como Trabalho de Conclusão de Curso (TCC).
 
 ## Autores
 
-Desenvolvido como projeto acadêmico.
-
-## Agradecimentos
-
-- Orientadores e professores
-- Comunidade Flutter e FastAPI
+Desenvolvido por Nicolas marquez Dalfovo.
 - Bibliotecas e frameworks open source utilizados
 
