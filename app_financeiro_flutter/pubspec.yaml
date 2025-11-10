@@ -1,0 +1,84 @@
+name: app_financeiro
+description: Aplicativo inteligente para gerenciamento financeiro pessoal com análise de hábitos de consumo
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  cupertino_icons: ^1.0.2
+  
+  provider: ^6.1.1
+  
+  http: ^1.1.0
+  dio: ^5.4.0
+  
+  shared_preferences: ^2.2.2
+  
+  fl_chart: ^1.1.1
+  
+  intl: ^0.20.2
+  
+  flutter_local_notifications: ^19.4.2
+  
+  image_picker: ^1.0.7
+  
+  file_picker: ^10.3.3
+  
+  flutter_svg: ^2.0.9
+  
+  google_fonts: ^6.1.0
+  
+  flutter_masked_text2: ^0.9.1
+  
+  syncfusion_flutter_charts: ^31.1.23
+  
+  shimmer: ^3.0.0
+  
+  flutter_slidable: ^4.0.3
+  
+  month_year_picker: ^0.5.0+1
+  
+  table_calendar: ^3.0.9
+  
+  flutter_speed_dial: ^7.0.0
+  
+  animations: ^2.0.11
+  
+  lottie: ^3.0.0
+  
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
+  
+ # fonts:
+  #  - family: Poppins
+   ####    weight: 500
+       # - asset: assets/fonts/Poppins-SemiBold.ttf
+        #  weight: 600
+        #- asset: assets/fonts/Poppins-Bold.ttf
+         # weight: 700
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+
